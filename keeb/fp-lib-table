@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name keebio-components)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/keebio-components)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/keebs.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name kicad_lib_tmk)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/kicad_lib_tmk)(options "")(descr ""))
+)

@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 60298470
+P 8550 3100
+F 0 "K2" H 8550 3333 60  0000 C CNN
+F 1 "KEYSW" H 8550 3000 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8550 3100 60  0001 C CNN
+F 3 "" H 8550 3100 60  0000 C CNN
+	1    8550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 602995B5
+P 7700 3600
+F 0 "K3" H 7700 3833 60  0000 C CNN
+F 1 "KEYSW" H 7700 3500 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7700 3600 60  0001 C CNN
+F 3 "" H 7700 3600 60  0000 C CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 60299B2D
+P 8550 3600
+F 0 "K4" H 8550 3833 60  0000 C CNN
+F 1 "KEYSW" H 8550 3500 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8550 3600 60  0001 C CNN
+F 3 "" H 8550 3600 60  0000 C CNN
+	1    8550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 6029BEA4
+P 8150 3300
+F 0 "D2" V 8196 3220 50  0000 R CNN
+F 1 "D" V 8105 3220 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 3300 50  0001 C CNN
+F 3 "~" H 8150 3300 50  0001 C CNN
+	1    8150 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 6029CCFE
+P 7300 3800
+F 0 "D3" V 7346 3720 50  0000 R CNN
+F 1 "D" V 7255 3720 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7300 3800 50  0001 C CNN
+F 3 "~" H 7300 3800 50  0001 C CNN
+	1    7300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 6029D583
+P 8150 3800
+F 0 "D4" V 8196 3720 50  0000 R CNN
+F 1 "D" V 8105 3720 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 8150 3800 50  0001 C CNN
+F 3 "~" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6029A282
+P 7300 3300
+F 0 "D1" H 7300 3517 50  0000 C CNN
+F 1 "D" H 7300 3426 50  0000 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 7300 3300 50  0001 C CNN
+F 3 "~" H 7300 3300 50  0001 C CNN
+	1    7300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 60297B88
+P 7700 3100
+F 0 "K1" H 7700 3333 60  0000 C CNN
+F 1 "KEYSW" H 7700 3000 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7700 3100 60  0001 C CNN
+F 3 "" H 7700 3100 60  0000 C CNN
+	1    7700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3100 7300 3100
+Wire Wire Line
+	7300 3100 7300 3150
+Wire Wire Line
+	8250 3100 8150 3100
+Wire Wire Line
+	8150 3100 8150 3150
+Wire Wire Line
+	8250 3600 8150 3600
+Wire Wire Line
+	8150 3600 8150 3650
+Wire Wire Line
+	7400 3600 7300 3600
+Wire Wire Line
+	7300 3600 7300 3650
+Wire Wire Line
+	8000 3100 8000 3600
+Wire Wire Line
+	8850 3100 8850 3600
+Wire Wire Line
+	8150 3450 7300 3450
+Wire Wire Line
+	7300 3950 8150 3950
+Wire Wire Line
+	7300 3450 6750 3450
+Connection ~ 7300 3450
+Wire Wire Line
+	7300 3950 7250 3950
+Wire Wire Line
+	7250 3950 7250 3550
+Wire Wire Line
+	7250 3550 6750 3550
+Connection ~ 7300 3950
+Wire Wire Line
+	8000 3100 8000 2850
+Wire Wire Line
+	8000 2850 6800 2850
+Wire Wire Line
+	6800 2850 6800 3650
+Wire Wire Line
+	6800 3650 6750 3650
+Connection ~ 8000 3100
+Wire Wire Line
+	8850 3100 8850 2800
+Wire Wire Line
+	8850 2800 6850 2800
+Wire Wire Line
+	6850 2800 6850 3750
+Wire Wire Line
+	6850 3750 6750 3750
+Connection ~ 8850 3100
+$Comp
+L keebio:Elite-C U1
+U 1 1 60295751
+P 6050 3600
+F 0 "U1" V 6050 4437 60  0000 C CNN
+F 1 "Elite-C" H 6050 4331 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" V 7100 1100 60  0001 C CNN
+F 3 "" V 7100 1100 60  0001 C CNN
+	1    6050 3600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5350 3050
+NoConn ~ 5350 3150
+NoConn ~ 5350 3350
+NoConn ~ 5350 3450
+NoConn ~ 5350 3550
+NoConn ~ 5350 3650
+NoConn ~ 5350 3750
+NoConn ~ 5350 3850
+NoConn ~ 5350 3950
+NoConn ~ 5350 4050
+NoConn ~ 5350 4150
+NoConn ~ 5850 4550
+NoConn ~ 5950 4550
+NoConn ~ 6050 4550
+NoConn ~ 6150 4550
+NoConn ~ 6250 4550
+NoConn ~ 6750 4150
+NoConn ~ 6750 4050
+NoConn ~ 6750 3950
+NoConn ~ 6750 3850
+NoConn ~ 6750 3350
+NoConn ~ 6750 3250
+NoConn ~ 6750 3150
+NoConn ~ 6750 3050
+$Comp
+L power:GND #PWR0101
+U 1 1 602AE4DE
+P 5300 3250
+F 0 "#PWR0101" H 5300 3000 50  0001 C CNN
+F 1 "GND" V 5305 3122 50  0000 R CNN
+F 2 "" H 5300 3250 50  0001 C CNN
+F 3 "" H 5300 3250 50  0001 C CNN
+	1    5300 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3250 5300 3250
+$EndSCHEMATC
