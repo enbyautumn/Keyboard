@@ -4,4 +4,5 @@
   (lib (name keebs)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/keebs.pretty)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/keyboard_parts.pretty)(options "")(descr ""))
   (lib (name kicad_lib_tmk)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/kicad_lib_tmk)(options "")(descr ""))
+  (lib (name TheKeebrary)(type KiCad)(uri C:/Users/Nevin/Documents/GitHub/Keyboard/TheKeebrary.pretty)(options "")(descr ""))
 )

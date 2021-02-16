@@ -13,3 +13,12 @@
 [submodule "keebio-components"]
 	path = keebio-components
 	url = https://github.com/keebio/keebio-components.git
+[submodule "TheKeebrary.pretty"]
+	path = TheKeebrary.pretty
+	url = https://github.com/n0bs/TheKeebrary.pretty.git
+[submodule "keyswitches.pretty"]
+	path = keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty.git
+[submodule "Switch_Keyboard"]
+	path = Switch_Keyboard
+	url = https://github.com/perigoso/Switch_Keyboard.git

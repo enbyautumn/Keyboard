@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 8)
-    (tracks 54)
+    (tracks 60)
     (zones 0)
     (modules 9)
     (nets 34)
@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -777,6 +777,10 @@
   (gr_line (start 90.4875 121.44375) (end 90.4875 161.925) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 92.86875 119.0625) (end 154.78125 119.0625) (layer Edge.Cuts) (width 0.05))
 
+  (via (at 104.91375 147.61) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (segment (start 104.8025 147.61) (end 104.91375 147.61) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 104.91375 137.11125) (end 106.29375 135.73125) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 104.91375 147.61) (end 104.91375 137.11125) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 99.618751 134.606249) (end 98.49375 135.73125) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 123.619475 134.606249) (end 99.618751 134.606249) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 125.124525 133.101199) (end 123.619475 134.606249) (width 0.25) (layer B.Cu) (net 2))
@@ -785,6 +789,8 @@
   (segment (start 118.799999 136.856251) (end 119.925 135.73125) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 99.618751 136.856251) (end 118.799999 136.856251) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 98.49375 135.73125) (end 99.618751 136.856251) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 126.345 137.11125) (end 127.725 135.73125) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 126.345 147.61) (end 126.345 137.11125) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 106.29375 152.868026) (end 106.29375 157.1625) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 103.043749 149.618025) (end 106.29375 152.868026) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 103.043749 134.871249) (end 103.043749 149.618025) (width 0.25) (layer F.Cu) (net 4))
@@ -832,7 +838,7 @@
   (segment (start 123.745061 124.273689) (end 120.57 127.44875) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 152.87625 141.9225) (end 151.674949 140.721199) (width 0.25) (layer F.Cu) (net 8))
 
-  (zone (net 33) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 33) (net_name GND) (layer F.Cu) (tstamp 6029C9C4) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
