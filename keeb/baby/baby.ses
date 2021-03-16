@@ -1,0 +1,103 @@
+
+(session baby.ses
+  (base_design baby.dsn)
+  (placement
+    (resolution um 10)
+    (component keyswitches:Kailh_socket_MX
+      (place K1 571500 -500062 back 180)
+    )
+    (component TestPoint:TestPoint_Pad_2.0x2.0mm
+      (place J1 642938 -452438 front 0)
+      (place J0 500062 -452438 front 0)
+    )
+    (component keyboard_parts:D_SOD123_axial
+      (place D1 571500 -452438 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.9)-1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path F.Cu 2500
+            587250 -452438
+            577997 -452438
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            577997 -452438
+            564743 -465692
+            537847 -465692
+            495900 -507639
+            495900 -525462
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            587250 -452438
+            598500 -452438
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            610500 -452438
+            598500 -452438
+          )
+        )
+      )
+      (net "Net-(D1-Pad1)"
+        (wire
+          (path F.Cu 2500
+            532500 -452438
+            500062 -452438
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            544500 -452438
+            532500 -452438
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            555750 -452438
+            544500 -452438
+          )
+        )
+      )
+      (net "Net-(J1-Pad1)"
+        (wire
+          (path F.Cu 2500
+            634400 -550862
+            634400 -535109
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            642938 -452438
+            642938 -526571
+            634400 -535109
+          )
+        )
+      )
+    )
+  )
+)
